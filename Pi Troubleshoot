@@ -1,0 +1,176 @@
+                    Welcome to Pi-Star: v4.1.6
+                                                                                                                                                                      
+pi-star@pi-star(ro):~$ sudo ls -ag /dev/
+total 4                                                                                                                                                                
+drwxr-xr-x 15 root        3420 Dec 31 20:06 .                                                                                                                          
+drwxr-xr-x 21 root        4096 Oct 30  2021 ..                                                                                                                         
+crw-r--r--  1 root     10, 235 Dec 31 20:06 autofs                                                                                                                     
+drwxr-xr-x  2 root         580 Dec 31 20:06 block                                                                                                                      
+crw-------  1 root     10, 234 Dec 31 20:06 btrfs-control                                                                                                              
+drwxr-xr-x  3 root          60 Jan  1  1970 bus                                                                                                                        
+crw-------  1 root     10,  63 Dec 31 20:06 cachefiles                                                                                                                 
+drwxr-xr-x  2 root        2420 Dec 31 20:06 char                                                                                                                       
+crw-------  1 root      5,   1 Dec 31 20:07 console                                                                                                                    
+crw-------  1 root     10, 203 Dec 31 20:06 cuse                                                                                                                       
+drwxr-xr-x  7 root         140 Dec 31 20:06 disk                                                                                                                       
+drwxr-xr-x  2 root          80 Jan  1  1970 dma_heap                                                                                                                   
+crw-rw----  1 video    29,   0 Dec 31 20:06 fb0                                                                                                                        
+lrwxrwxrwx  1 root          13 Feb 14  2019 fd -> /proc/self/fd                                                                                                        
+crw-rw-rw-  1 root      1,   7 Dec 31 20:06 full                                                                                                                       
+crw-rw-rw-  1 root     10, 229 Dec 31 20:06 fuse                                                                                                                       
+crw-rw----  1 gpio    254,   0 Dec 31 20:06 gpiochip0                                                                                                                  
+crw-rw----  1 gpio    246,   0 Dec 31 20:06 gpiomem                                                                                                                    
+crw-------  1 root     10, 183 Dec 31 20:06 hwrng                                                                                                                      
+crw-rw----  1 i2c      89,   1 Dec 31 20:06 i2c-1                                                                                                                      
+lrwxrwxrwx  1 root          12 Feb 14  2019 initctl -> /run/initctl                                                                                                    
+drwxr-xr-x  2 root          60 Jan  1  1970 input                                                                                                                      
+crw-r--r--  1 root      1,  11 Dec 31 20:06 kmsg                                                                                                                       
+lrwxrwxrwx  1 root          28 Feb 14  2019 log -> /run/systemd/journal/dev-log                                                                                        
+brw-rw----  1 disk      7,   0 Dec 31 20:06 loop0                                                                                                                      
+brw-rw----  1 disk      7,   1 Dec 31 20:06 loop1                                                                                                                      
+brw-rw----  1 disk      7,   2 Dec 31 20:06 loop2                                                                                                                      
+brw-rw----  1 disk      7,   3 Dec 31 20:06 loop3                                                                                                                      
+brw-rw----  1 disk      7,   4 Dec 31 20:06 loop4                                                                                                                      
+brw-rw----  1 disk      7,   5 Dec 31 20:06 loop5                                                                                                                      
+brw-rw----  1 disk      7,   6 Dec 31 20:06 loop6                                                                                                                      
+brw-rw----  1 disk      7,   7 Dec 31 20:06 loop7                                                                                                                      
+crw-rw----  1 disk     10, 237 Dec 31 20:06 loop-control                                                                                                               
+drwxr-xr-x  2 root          60 Dec 31 20:06 mapper                                                                                                                     
+crw-r-----  1 kmem      1,   1 Dec 31 20:06 mem                                                                                                                        
+brw-rw----  1 disk    179,   0 Dec 31 20:06 mmcblk0                                                                                                                    
+brw-rw----  1 disk    179,   1 Dec 31 20:06 mmcblk0p1                                                                                                                  
+brw-rw----  1 disk    179,   2 Dec 31 20:06 mmcblk0p2                                                                                                                  
+drwxrwxrwt  2 root          40 Jan  1  1970 mqueue                                                                                                                     
+drwxr-xr-x  2 root          60 Dec 31 20:06 net                                                                                                                        
+crw-rw-rw-  1 root      1,   3 Dec 31 20:06 null                                                                                                                       
+crw-------  1 root    108,   0 Dec 31 20:06 ppp                                                                                                                        
+crw-rw-rw-  1 tty       5,   2 Dec 31  2023 ptmx                                                                                                                       
+drwxr-xr-x  2 root           0 Feb 14  2019 pts                                                                                                                        
+brw-rw----  1 disk      1,   0 Dec 31 20:06 ram0                                                                                                                       
+brw-rw----  1 disk      1,   1 Dec 31 20:06 ram1                                                                                                                       
+brw-rw----  1 disk      1,  10 Dec 31 20:06 ram10                                                                                                                      
+brw-rw----  1 disk      1,  11 Dec 31 20:06 ram11                                                                                                                      
+brw-rw----  1 disk      1,  12 Dec 31 20:06 ram12                                                                                                                      
+brw-rw----  1 disk      1,  13 Dec 31 20:06 ram13                                                                                                                      
+brw-rw----  1 disk      1,  14 Dec 31 20:06 ram14                                                                                                                      
+brw-rw----  1 disk      1,  15 Dec 31 20:06 ram15                                                                                                                      
+brw-rw----  1 disk      1,   2 Dec 31 20:06 ram2                                                                                                                       
+brw-rw----  1 disk      1,   3 Dec 31 20:06 ram3                                                                                                                       
+brw-rw----  1 disk      1,   4 Dec 31 20:06 ram4                                                                                                                       
+brw-rw----  1 disk      1,   5 Dec 31 20:06 ram5                                                                                                                       
+brw-rw----  1 disk      1,   6 Dec 31 20:06 ram6                                                                                                                       
+brw-rw----  1 disk      1,   7 Dec 31 20:06 ram7                                                                                                                       
+brw-rw----  1 disk      1,   8 Dec 31 20:06 ram8                                                                                                                       
+brw-rw----  1 disk      1,   9 Dec 31 20:06 ram9                                                                                                                       
+crw-rw-rw-  1 root      1,   8 Dec 31 20:06 random                                                                                                                     
+drwxr-xr-x  2 root          60 Jan  1  1970 raw                                                                                                                        
+crw-rw-r--  1 netdev   10, 242 Dec 31 20:06 rfkill                                                                                                                     
+lrwxrwxrwx  1 root           7 Dec 31 20:06 serial0 -> ttyAMA0                                                                                                         
+lrwxrwxrwx  1 root           5 Dec 31 20:06 serial1 -> ttyS0                                                                                                           
+drwxrwxrwt  2 root          40 Feb 14  2019 shm                                                                                                                        
+drwxr-xr-x  2 root          80 Dec 31 20:06 snd                                                                                                                        
+crw-rw----  1 spi     153,   0 Dec 31 20:06 spidev0.0                                                                                                                  
+crw-rw----  1 spi     153,   1 Dec 31 20:06 spidev0.1                                                                                                                  
+lrwxrwxrwx  1 root          15 Feb 14  2019 stderr -> /proc/self/fd/2                                                                                                  
+lrwxrwxrwx  1 root          15 Feb 14  2019 stdin -> /proc/self/fd/0                                                                                                   
+lrwxrwxrwx  1 root          15 Feb 14  2019 stdout -> /proc/self/fd/1                                                                                                  
+crw-rw-rw-  1 tty       5,   0 Dec 31 20:06 tty                                                                                                                        
+crw--w----  1 tty       4,   0 Dec 31 20:06 tty0                                                                                                                       
+crw--w----  1 tty       4,   1 Dec 31 20:07 tty1                                                                                                                       
+crw--w----  1 tty       4,  10 Dec 31 20:06 tty10                                                                                                                      
+crw--w----  1 tty       4,  11 Dec 31 20:06 tty11                                                                                                                      
+crw--w----  1 tty       4,  12 Dec 31 20:06 tty12                                                                                                                      
+crw--w----  1 tty       4,  13 Dec 31 20:06 tty13                                                                                                                      
+crw--w----  1 tty       4,  14 Dec 31 20:06 tty14                                                                                                                      
+crw--w----  1 tty       4,  15 Dec 31 20:06 tty15                                                                                                                      
+crw--w----  1 tty       4,  16 Dec 31 20:06 tty16                                                                                                                      
+crw--w----  1 tty       4,  17 Dec 31 20:06 tty17                                                                                                                      
+crw--w----  1 tty       4,  18 Dec 31 20:06 tty18                                                                                                                      
+crw--w----  1 tty       4,  19 Dec 31 20:06 tty19                                                                                                                      
+crw--w----  1 tty       4,   2 Dec 31 20:06 tty2                                                                                                                       
+crw--w----  1 tty       4,  20 Dec 31 20:06 tty20                                                                                                                      
+crw--w----  1 tty       4,  21 Dec 31 20:06 tty21                                                                                                                      
+crw--w----  1 tty       4,  22 Dec 31 20:06 tty22                                                                                                                      
+crw--w----  1 tty       4,  23 Dec 31 20:06 tty23                                                                                                                      
+crw--w----  1 tty       4,  24 Dec 31 20:06 tty24                                                                                                                      
+crw--w----  1 tty       4,  25 Dec 31 20:06 tty25                                                                                                                      
+crw--w----  1 tty       4,  26 Dec 31 20:06 tty26                                                                                                                      
+crw--w----  1 tty       4,  27 Dec 31 20:06 tty27                                                                                                                      
+crw--w----  1 tty       4,  28 Dec 31 20:06 tty28                                                                                                                      
+crw--w----  1 tty       4,  29 Dec 31 20:06 tty29                                                                                                                      
+crw--w----  1 tty       4,   3 Dec 31 20:06 tty3                                                                                                                       
+crw--w----  1 tty       4,  30 Dec 31 20:06 tty30                                                                                                                      
+crw--w----  1 tty       4,  31 Dec 31 20:06 tty31                                                                                                                      
+crw--w----  1 tty       4,  32 Dec 31 20:06 tty32                                                                                                                      
+crw--w----  1 tty       4,  33 Dec 31 20:06 tty33                                                                                                                      
+crw--w----  1 tty       4,  34 Dec 31 20:06 tty34                                                                                                                      
+crw--w----  1 tty       4,  35 Dec 31 20:06 tty35                                                                                                                      
+crw--w----  1 tty       4,  36 Dec 31 20:06 tty36                                                                                                                      
+crw--w----  1 tty       4,  37 Dec 31 20:06 tty37                                                                                                                      
+crw--w----  1 tty       4,  38 Dec 31 20:06 tty38                                                                                                                      
+crw--w----  1 tty       4,  39 Dec 31 20:06 tty39                                                                                                                      
+crw--w----  1 tty       4,   4 Dec 31 20:06 tty4                                                                                                                       
+crw--w----  1 tty       4,  40 Dec 31 20:06 tty40                                                                                                                      
+crw--w----  1 tty       4,  41 Dec 31 20:06 tty41                                                                                                                      
+crw--w----  1 tty       4,  42 Dec 31 20:06 tty42                                                                                                                      
+crw--w----  1 tty       4,  43 Dec 31 20:06 tty43                                                                                                                      
+crw--w----  1 tty       4,  44 Dec 31 20:06 tty44                                                                                                                      
+crw--w----  1 tty       4,  45 Dec 31 20:06 tty45                                                                                                                      
+crw--w----  1 tty       4,  46 Dec 31 20:06 tty46                                                                                                                      
+crw--w----  1 tty       4,  47 Dec 31 20:06 tty47                                                                                                                      
+crw--w----  1 tty       4,  48 Dec 31 20:06 tty48                                                                                                                      
+crw--w----  1 tty       4,  49 Dec 31 20:06 tty49                                                                                                                      
+crw--w----  1 tty       4,   5 Dec 31 20:06 tty5                                                                                                                       
+crw--w----  1 tty       4,  50 Dec 31 20:06 tty50                                                                                                                      
+crw--w----  1 tty       4,  51 Dec 31 20:06 tty51                                                                                                                      
+crw--w----  1 tty       4,  52 Dec 31 20:06 tty52                                                                                                                      
+crw--w----  1 tty       4,  53 Dec 31 20:06 tty53                                                                                                                      
+crw--w----  1 tty       4,  54 Dec 31 20:06 tty54                                                                                                                      
+crw--w----  1 tty       4,  55 Dec 31 20:06 tty55                                                                                                                      
+crw--w----  1 tty       4,  56 Dec 31 20:06 tty56                                                                                                                      
+crw--w----  1 tty       4,  57 Dec 31 20:06 tty57                                                                                                                      
+crw--w----  1 tty       4,  58 Dec 31 20:06 tty58                                                                                                                      
+crw--w----  1 tty       4,  59 Dec 31 20:06 tty59                                                                                                                      
+crw--w----  1 tty       4,   6 Dec 31 20:06 tty6                                                                                                                       
+crw--w----  1 tty       4,  60 Dec 31 20:06 tty60                                                                                                                      
+crw--w----  1 tty       4,  61 Dec 31 20:06 tty61                                                                                                                      
+crw--w----  1 tty       4,  62 Dec 31 20:06 tty62                                                                                                                      
+crw--w----  1 tty       4,  63 Dec 31 20:06 tty63                                                                                                                      
+crw--w----  1 tty       4,   7 Dec 31 20:06 tty7                                                                                                                       
+crw--w----  1 tty       4,   8 Dec 31 20:06 tty8                                                                                                                       
+crw--w----  1 tty       4,   9 Dec 31 20:06 tty9                                                                                                                       
+crw-rw----  1 dialout 204,  64 Dec 31 21:52 ttyAMA0                                                                                                                    
+crw-------  1 root      5,   3 Dec 31 20:06 ttyprintk                                                                                                                  
+crw-rw----  1 dialout   4,  64 Dec 31 20:06 ttyS0                                                                                                                      
+crw-------  1 root     10, 239 Dec 31 20:06 uhid                                                                                                                       
+crw-------  1 root     10, 223 Dec 31 20:06 uinput                                                                                                                     
+crw-rw-rw-  1 root      1,   9 Dec 31 20:06 urandom                                                                                                                    
+crw-rw----  1 video   243,   0 Dec 31 20:06 vchiq                                                                                                                      
+crw-rw----  1 video   247,   0 Dec 31 20:06 vcio                                                                                                                       
+crw-------  1 root    248,   0 Dec 31 20:06 vc-mem                                                                                                                     
+crw-rw----  1 tty       7,   0 Dec 31 20:06 vcs                                                                                                                        
+crw-rw----  1 tty       7,   1 Dec 31 20:06 vcs1                                                                                                                       
+crw-rw----  1 tty       7,   2 Dec 31 20:06 vcs2                                                                                                                       
+crw-rw----  1 tty       7,   3 Dec 31 20:06 vcs3                                                                                                                       
+crw-rw----  1 tty       7,   4 Dec 31 20:06 vcs4                                                                                                                       
+crw-rw----  1 tty       7,   5 Dec 31 20:06 vcs5                                                                                                                       
+crw-rw----  1 tty       7,   6 Dec 31 20:06 vcs6                                                                                                                       
+crw-rw----  1 tty       7, 128 Dec 31 20:06 vcsa                                                                                                                       
+crw-rw----  1 tty       7, 129 Dec 31 20:06 vcsa1                                                                                                                      
+crw-rw----  1 tty       7, 130 Dec 31 20:06 vcsa2                                                                                                                      
+crw-rw----  1 tty       7, 131 Dec 31 20:06 vcsa3                                                                                                                      
+crw-rw----  1 tty       7, 132 Dec 31 20:06 vcsa4                                                                                                                      
+crw-rw----  1 tty       7, 133 Dec 31 20:06 vcsa5                                                                                                                      
+crw-rw----  1 tty       7, 134 Dec 31 20:06 vcsa6                                                                                                                      
+crw-rw----  1 tty       7,  64 Dec 31 20:06 vcsu                                                                                                                       
+crw-rw----  1 tty       7,  65 Dec 31 20:06 vcsu1                                                                                                                      
+crw-rw----  1 tty       7,  66 Dec 31 20:06 vcsu2                                                                                                                      
+crw-rw----  1 tty       7,  67 Dec 31 20:06 vcsu3                                                                                                                      
+crw-rw----  1 tty       7,  68 Dec 31 20:06 vcsu4                                                                                                                      
+crw-rw----  1 tty       7,  69 Dec 31 20:06 vcsu5                                                                                                                      
+crw-rw----  1 tty       7,  70 Dec 31 20:06 vcsu6                                                                                                                      
+crw-------  1 root     10, 137 Dec 31 20:06 vhci                                                                                                                       
+crw-------  1 root     10, 130 Dec 31 20:06 watchdog                                                                                                                   
+crw-------  1 root    250,   0 Dec 31 20:06 watchdog0                                                                                                                  
+crw-rw-rw-  1 root      1,   5 Dec 31 20:06 zero   
+
